@@ -43,9 +43,6 @@ class Frac:
         numeratorP = self.numerator ** power
         return Frac(numeratorP, denominatorP)
     
-    def floor(self):
-        return str(self.numerator // self.denominator)
-    
     def __lt__(self, second):
         return self.floated < second.floated
     def __gt__(self, second):
@@ -93,3 +90,6 @@ class Frac:
         self.denominator = denominatorP
         self.denominator = numeratorP
         return self
+    
+    def floor(self):
+        return self.numerator // self.denominator
