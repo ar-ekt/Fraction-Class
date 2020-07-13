@@ -15,8 +15,7 @@ class Frac:
         return self
     
     def __neg__(self):
-        self.numerator = -self.numerator
-        return self
+        return Frac(-self.numerator, self.denominator)
     
     def __add__(self, second):
         denominatorA = (self.denominator * second.denominator) // gcd(self.denominator, second.denominator)
