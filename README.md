@@ -24,7 +24,9 @@ Supports comparison operators;
 6. Less or equal (<=)
 
 Supports abs, floor, ceil, round and trunc functions.
+
 Frac's objects can be converted to int, float and str.
 
 Simplify function: return a new fraction that its numerator and denominator have simplified.
+
 Reverse function: return a new fraction that place of its numerator and denominator have changed.
