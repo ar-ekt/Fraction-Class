@@ -12,8 +12,10 @@ Supports math operations;
 3. Multiplication (*)
 4. Division (/)
 5. Floor-division (//)
-6. Power (**)
-7. Reminder (%)
+6. Exponent (**)
+7. Modulus (%)
+
+Supports assignment operations;
 
 Supports comparison operators;
 1. Equal (==)
